@@ -23,6 +23,22 @@ elevator_entrance_location = {
 
 tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t/cayo-perico-casino-dlc-ipl-loader/2099391
 	{
+		coords = vector4(1036.57, 51.77, 69.06, 197.18),
+		highStakes = true
+	},
+	{
+		coords = vector4(1036.1, 54.14, 69.06, 7.41),
+		highStakes = false
+	},
+	{
+		coords = vector4(1043.7, 55.96, 69.06, 20.52),
+		highStakes = false
+	},
+	{
+		coords = vector4(1044.1, 53.52, 69.06, 197.99),
+		highStakes = true
+	},
+	--[[{
 		coords = vector4(0, 0, 0, 0),
 		highStakes = false
 	},
@@ -32,22 +48,6 @@ tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t
 	},
 	{
 		coords = vector4(0, 0, 0, 0),
-		highStakes = false
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = false
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = false
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = false
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
 		highStakes = true
 	},
 	{
@@ -77,7 +77,7 @@ tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t
 	{
 		coords = vector4(0, 0, 0, 0),
 		highStakes = true
-	},
+	},]]
 }
 --[[
 	Table colors
@@ -88,27 +88,27 @@ tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t
 --]]
 
 customTables = { -- Spawns ped with table, example below
-	{
-		coords = vector4(-1394.8, -601.95, 35.51, 212.82),
+	--[[{
+		coords = vector4(1036.57, 51.77, 69.06, 197.18),
 		highStakes = true,
 		color = 1
 	},
 	{
-		coords = vector4(-1398.15, -598.03, 35.51, 303),
+		coords = vector4(1036.1, 54.14, 69.06, 7.41),
 		highStakes = false,
 		color = 3
 	},
 	{
-		coords = vector4(-1402.65, -600.68, 35.51, 32.00),
+		coords = vector4(1043.7, 55.96, 69.06, 20.52),
 		highStakes = false,
-		color = 3
+		color = 2
 	},
 	{
-		coords = vector4(-1406.36, -603.34, 35.51, 32.00),
-		highStakes = false,
-		color = 3
-	},
-	{
+		coords = vector4(1044.1, 53.52, 69.06, 197.99),
+		highStakes = true,
+		color = 0
+	},]]
+	--[[{
 		coords = vector4(1043.7, 51.61, 68.06, 64.21),
 		highStakes = false,
 		color = 2
@@ -147,7 +147,7 @@ customTables = { -- Spawns ped with table, example below
 		coords = vector4(1033.32, 39.29, 68.87, 227.53),
 		highStakes = true,
 		color = 3
-	},
+	},]]
 }
 
 for i,v in pairs(customTables) do
