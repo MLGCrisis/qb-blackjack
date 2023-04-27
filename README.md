@@ -53,19 +53,19 @@ elevator_entrance_location = {
 ```lua
 tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t/cayo-perico-casino-dlc-ipl-loader/2099391
 	{
-		coords = vector4(0, 0, 0, 0),
+		coords = vector4(1036.06, 54.21, 69.06, 19.06),
 		highStakes = false
 	},
 	{
-		coords = vector4(0, 0, 0, 0),
+		coords = vector4(1036.64, 51.7, 69.06, 192.43),
 		highStakes = false
 	},
 	{
-		coords = vector4(0, 0, 0, 0),
+		coords = vector4(1044.21, 53.51, 69.06, 197.97),
 		highStakes = false
 	},
 	{
-		coords = vector4(0, 0, 0, 0),
+		coords = vector4(1043.64, 56.01, 69.06, 12.64),
 		highStakes = false
 	},
 	{
@@ -116,36 +116,36 @@ tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t
 ```lua
 customTables = { -- Spawns ped with table, example below
 	{
-		coords = vector4(-1394.8, -601.95, 35.51, 212.82),
+		coords = vector4(1025.2, 64.86, 69.87, 192.2),
 		highStakes = true,
 		color = 1
 	},
 	{
-		coords = vector4(-1398.15, -598.03, 35.51, 303),
+		coords = vector4(1025.9, 57.0, 69.87, 356.42),
 		highStakes = false,
 		color = 3
 	},
 	{
-		coords = vector4(-1402.65, -600.68, 35.51, 32.00),
+		coords = vector4(1038.96, 59.81, 69.06, 199.79),
 		highStakes = false,
 		color = 3
 	},
 	{
-		coords = vector4(-1406.36, -603.34, 35.51, 32.00),
+		coords = vector4(1041.78, 47.83, 69.06, 18.77),
 		highStakes = false,
 		color = 3
 	},
 	{
-		coords = vector4(1043.7, 51.61, 68.06, 64.21),
+		coords = vector4(1029.25, 45.11, 69.87, 206.23),
 		highStakes = false,
 		color = 2
 	},
 	{
-		coords = vector4(1042.42, 57.55, 68.06, 145.18),
+		coords = vector4(1032.5, 36.74, 69.87, 27.13),
 		highStakes = false,
 		color = 2
 	},
-	{
+--[[ 	{
 		coords = vector4(1037.78, 50.37, 68.06, 330.39),
 		highStakes = false,
 		color = 2
@@ -174,7 +174,7 @@ customTables = { -- Spawns ped with table, example below
 		coords = vector4(1033.32, 39.29, 68.87, 227.53),
 		highStakes = true,
 		color = 3
-	},
+	}, ]]
 }
 ```
 

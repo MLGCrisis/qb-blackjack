@@ -22,62 +22,62 @@ elevator_entrance_location = {
 }
 
 tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t/cayo-perico-casino-dlc-ipl-loader/2099391
-	{
-		coords = vector4(1036.57, 51.77, 69.06, 197.18),
-		highStakes = true
-	},
-	{
-		coords = vector4(1036.1, 54.14, 69.06, 7.41),
-		highStakes = false
-	},
-	{
-		coords = vector4(1043.7, 55.96, 69.06, 20.52),
-		highStakes = false
-	},
-	{
-		coords = vector4(1044.1, 53.52, 69.06, 197.99),
-		highStakes = true
-	},
-	--[[{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = false
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = false
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},
-	{
-		coords = vector4(0, 0, 0, 0),
-		highStakes = true
-	},]]
+--[[ {
+	coords = vector4(1036.06, 54.21, 69.06, 19.06),
+	highStakes = false
+},
+{
+	coords = vector4(1036.64, 51.7, 69.06, 192.43),
+	highStakes = false
+},
+{
+	coords = vector4(1044.21, 53.51, 69.06, 197.97),
+	highStakes = false
+},
+{
+	coords = vector4(1043.64, 56.01, 69.06, 12.64),
+	highStakes = false
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = false
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = false
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+},
+{
+	coords = vector4(0, 0, 0, 0),
+	highStakes = true
+}, ]]
 }
 --[[
 	Table colors
@@ -88,66 +88,66 @@ tables = { -- Spawns Ped Only -- Setup Currently For This https://forum.cfx.re/t
 --]]
 
 customTables = { -- Spawns ped with table, example below
-	--[[{
-		coords = vector4(1036.57, 51.77, 69.06, 197.18),
-		highStakes = true,
-		color = 1
-	},
-	{
-		coords = vector4(1036.1, 54.14, 69.06, 7.41),
-		highStakes = false,
-		color = 3
-	},
-	{
-		coords = vector4(1043.7, 55.96, 69.06, 20.52),
-		highStakes = false,
-		color = 2
-	},
-	{
-		coords = vector4(1044.1, 53.52, 69.06, 197.99),
-		highStakes = true,
-		color = 0
-	},]]
-	--[[{
-		coords = vector4(1043.7, 51.61, 68.06, 64.21),
-		highStakes = false,
-		color = 2
-	},
-	{
-		coords = vector4(1042.42, 57.55, 68.06, 145.18),
-		highStakes = false,
-		color = 2
-	},
-	{
-		coords = vector4(1037.78, 50.37, 68.06, 330.39),
-		highStakes = false,
-		color = 2
-	},
-	{
-		coords = vector4(1036.44, 56.11, 68.06, 240.51),
-		highStakes = false,
-		color = 2
-	},
-	{
-		coords = vector4(1024.41, 58.63, 68.87, 150.27),
-		highStakes = true,
-		color = 3
-	},
-	{
-		coords = vector4(1027.13, 63.67, 68.87, 332.04),
-		highStakes = true,
-		color = 3
-	},
-	{
-		coords = vector4(1028.52, 42.2, 68.87, 57.6),
-		highStakes = true,
-		color = 3
-	},
-	{
-		coords = vector4(1033.32, 39.29, 68.87, 227.53),
-		highStakes = true,
-		color = 3
-	},]]
+{
+	coords = vector4(1039.21, 59.14, 68.06, 19.87),
+	highStakes = true,
+	color = 1
+},
+{
+	coords = vector4(1041.35, 48.71, 68.06, 195.27),
+	highStakes = true,
+	color = 3
+},
+--[[ {
+	coords = vector4(1033.82, 41.51, 68.86, 283.16),
+	highStakes = true,
+	color = 3
+},
+{
+	coords = vector4(1027.86, 40.08, 68.86, 103.47),
+	highStakes = true,
+	color = 3
+}, ]]
+{
+	coords = vector4(1036.81, 50.91, 68.06, 13.16),
+	highStakes = false,
+	color = 2
+},
+{
+	coords = vector4(1035.85, 55.02, 68.06, 193.16),
+	highStakes = false,
+	color = 2
+},
+{
+	coords = vector4(1043.42, 56.8, 68.06, 193.47),
+	highStakes = false,
+	color = 2
+},
+{
+	coords = vector4(1044.39, 52.66, 68.06, 13.47),
+	highStakes = false,
+	color = 2
+},
+--[[ {
+	coords = vector4(1024.41, 58.63, 68.87, 150.27),
+	highStakes = true,
+	color = 3
+},
+{
+	coords = vector4(1027.13, 63.67, 68.87, 332.04),
+	highStakes = true,
+	color = 3
+},
+{
+	coords = vector4(1028.52, 42.2, 68.87, 57.6),
+	highStakes = true,
+	color = 3
+},
+{
+	coords = vector4(1033.32, 39.29, 68.87, 227.53),
+	highStakes = true,
+	color = 3
+}, ]]
 }
 
 for i,v in pairs(customTables) do
